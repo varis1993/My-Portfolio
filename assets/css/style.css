@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(48, 198, 224);
+  }
+
+  header {
+    padding: 8px 0px;
+    background-color: #080c01;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #7e7f85;
+    margin: 0;
+  }
+
+  
+  header a {
+    color: #7e7f85;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #7e7f85;
+    margin: 0;
+    display: inline;
+  }
+
+  /* Hero Style Start */
+.hero {
+    background-image: url("../images/stars.jpeg");
+    height: 300px;
+    align-items: flex-start
+  }
+  .hero h1 {
+      text-align: right;
+      color: #7e7f85
+  }
+
+.Self {
+    height: 200px;
+    padding: -23px;
+}
+  /* Hero Style End */
+
+  section {
+    padding: 60px;
+  }
+
+  section h2 {
+    color: #7e7f85;
+  }
+
+.work {
+    height: 250px;
+    padding: 46px;
+    width: 500px;
+}
+
+.style{
+    height: 250px;
+    padding: 46px;
+    width: 500px;
+}
+
+.container {
+    position: relative;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 53px;
+    left: 47px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
